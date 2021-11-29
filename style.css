@@ -2,13 +2,13 @@ body {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/162.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position-y: top;
 }
 
 .container {
@@ -24,13 +24,13 @@ body {
 
 .page-header .container,
 .page-footer .container {
-  max-width: 3000px;
+  max-width: 1408px;
   text-align: right;
 }
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #0d0d0e;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 100px;
+  margin-bottom: 620px;
 }
 
 .hero-image .container {
@@ -170,8 +170,8 @@ body {
 }
 
 .page-footer {
-  padding: 30px 0;
-  background-color: #1283f5;
+  padding: 40px 0;
+  background-color: #00417d;
   color: #ffffff;
 }
 
