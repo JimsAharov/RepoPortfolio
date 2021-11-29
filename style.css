@@ -24,7 +24,7 @@ body {
 
 .page-header .container,
 .page-footer .container {
-  max-width: 1408px;
+  max-width: 3000px;
   text-align: right;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 100px;
 }
 
 .hero-image .container {
@@ -170,8 +170,8 @@ body {
 }
 
 .page-footer {
-  padding: 40px 0;
-  background-color: #00417d;
+  padding: 30px 0;
+  background-color: #1283f5;
   color: #ffffff;
 }
 
