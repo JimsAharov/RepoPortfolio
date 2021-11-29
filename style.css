@@ -4,7 +4,7 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 20px;
   line-height: 32px;
-  color: #222222;
+  color: #0a0a0a;
   background-color: #f2f4f6;
   background-image: url("img/162.png");
   background-repeat: no-repeat;
@@ -30,8 +30,8 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #0d0d0e;
-  text-decoration: none;
+  color: #0a0ae2;
+  text-decoration: underline; 
   background-repeat: no-repeat;
   background-position: left;
 }
