@@ -10,41 +10,58 @@ body {
     background-repeat: no-repeat;
     background-position: top center;
   }
+
+  .navtop{
+    background-color: darkgray;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    top: 0;
+  }
+
+  .navtop_text{
+     margin-left: 34%;
+     font-size: 25px;
+    }
+
+  .avatar{
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-right: 32px;
+    }
+
+    .navtop_home{
+      opacity: 0.4;
+    }
+
+    .navtop_home:hover{
+      opacity: 1;
+    }
+
+    .navtop_homehref{
+      margin-left: 34%;
+    }
+  
+    .photos {
+      max-width: 928px;
+      margin: 55px auto;
+      padding: 16px;
+    } 
+  
+
+
   
   .container {
     max-width: 928px;
-    margin: 0 auto;
-    padding: 0 16px;
-  }
-  
-  .page-header {
-    margin: 0 0 160px;
-    padding: 32px 0 32px;
-  }
-  
-  .page-header .container,
-  .page-footer .container {
-    max-width: 1408px;
+    margin-left: 35%;
+    padding: 0;
     text-align: right;
   }
   
-  .page-header a {
-    margin-left: 56px;
-    color: #288be6;
-    text-decoration: underline;
-    background-repeat: no-repeat;
-    background-position: left;
-  }
+
   
-  .header-email {
-    padding-left: 40px;
-    background-image: url("img/icon-email-header.svg");
-  }
-  
-  .header-phone {
-    padding-left: 30px;
-    background-image: url("img/icon-phone-header.svg");
-  }
   
   .hero-image {
     margin-bottom: 620px;
@@ -192,11 +209,34 @@ body {
     padding-left: 25px;
     background-image: url("img/icon-phone-footer.svg");
   }
+  .homebutton{
+    display: inline-block;
+    background: silver;
+    margin: 0 0 1% 43%;
+    border-radius: 25px;
+    border: solid black;
+    padding: 0 10px;
+  }
+
+  .homebutton:hover{
+   background: black;
+
+  }
+
+  .homebutton_text{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+ }
+
+ .homebutton_text:hover{
+   color: white;
+ }
 
   .buttonup {
     width: 40px;
     height: 40px;
     position: fixed;
-    bottom: 220px;
+    bottom: 350px;
     right: 40px;
     }
