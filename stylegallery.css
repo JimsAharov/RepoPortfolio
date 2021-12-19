@@ -211,27 +211,28 @@ body {
   }
   .homebutton{
     display: inline-block;
-    background: silver;
+    background: rgb(49, 48, 48);
     margin: 0 0 1% 43%;
     border-radius: 25px;
-    border: solid black;
+    border: solid rgb(49, 48, 48);
     padding: 0 10px;
+    
+    font-weight: bold;
   }
 
   .homebutton:hover{
-   background: black;
-
+   background: rgb(99, 98, 98);
+   border: solid rgb(99, 98, 98);
+   
   }
 
   .homebutton_text{
     text-decoration: none;
-    font-weight: bold;
-    color: black;
+    
+    color: white;
  }
 
- .homebutton_text:hover{
-   color: white;
- }
+ 
 
   .buttonup {
     width: 40px;
